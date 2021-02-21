@@ -7,111 +7,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E1E4ABFD-E549-435A-B724-20D8558C9057"
+            uuid = "3AC9364B-18A6-4204-A790-A15DA58AB00B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
+            filePath = "NfcApp/NfcWriter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "readerSession(_:didDetect:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "write(tag:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E1E4ABFD-E549-435A-B724-20D8558C9057 - e45ade74597a806e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NfcApp.ViewController.readerSession(_: __C.NFCNDEFReaderSession, didDetect: Swift.Array&lt;__C.NFCNDEFTag&gt;) -&gt; ()"
-                  moduleName = "NfcApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cmars/projects/NfcApp/NfcApp/NfcApp/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "151"
-                  endingLineNumber = "151"
-                  offsetFromSymbolStart = "172">
-               </Location>
-               <Location
-                  uuid = "E1E4ABFD-E549-435A-B724-20D8558C9057 - 5ca2d6a2cf45a5b0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.NFCNDEFStatus, Swift.Int, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NfcApp.ViewController.readerSession(_: __C.NFCNDEFReaderSession, didDetect: Swift.Array&lt;__C.NFCNDEFTag&gt;) -&gt; ()"
-                  moduleName = "NfcApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cmars/projects/NfcApp/NfcApp/NfcApp/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "152"
-                  endingLineNumber = "152"
-                  offsetFromSymbolStart = "124">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A8A34EAC-C352-4170-8AA4-81D6CC550CE6"
+            uuid = "66D755A1-8AB7-41DD-80BB-4913AF8918B7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
+            filePath = "NfcApp/NfcWriter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
-            landmarkName = "readerSession(_:didDetect:)"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "createPayload(tag:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A8A34EAC-C352-4170-8AA4-81D6CC550CE6 - 5ca2d6a2cf45a21d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.NFCNDEFStatus, Swift.Int, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NfcApp.ViewController.readerSession(_: __C.NFCNDEFReaderSession, didDetect: Swift.Array&lt;__C.NFCNDEFTag&gt;) -&gt; ()"
-                  moduleName = "NfcApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cmars/projects/NfcApp/NfcApp/NfcApp/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "163"
-                  endingLineNumber = "163"
-                  offsetFromSymbolStart = "900">
-               </Location>
-               <Location
-                  uuid = "A8A34EAC-C352-4170-8AA4-81D6CC550CE6 - 5351433fe05e85ab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.NFCNDEFStatus, Swift.Int, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NfcApp.ViewController.readerSession(_: __C.NFCNDEFReaderSession, didDetect: Swift.Array&lt;__C.NFCNDEFTag&gt;) -&gt; ()"
-                  moduleName = "NfcApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cmars/projects/NfcApp/NfcApp/NfcApp/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3801A36E-0915-4461-A927-696AEDDB6D03"
+            uuid = "82944F74-238A-4E93-B5EA-039195EF2083"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
+            filePath = "NfcApp/NfcWriter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "readerSession(_:didDetect:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -119,15 +55,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DBEBD099-FB68-4AC9-A536-676BC347C92D"
+            uuid = "9BEE44DE-5EB2-4DCD-903B-A3D616F13FEE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
+            filePath = "NfcApp/NfcWriter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "readerSession(_:didDetect:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -135,31 +71,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "628EB205-3F7D-49C3-B06C-D57A97D05B14"
+            uuid = "4914EA6E-CA36-44DC-8A17-3F3C0908B33E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
+            filePath = "NfcApp/NfcWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "readerSession(_:didDetect:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07BA3BA7-453B-4D29-9796-160F9F70D581"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcApp/NfcWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "readerSession(_:didDetect:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29A9C327-D45A-43BF-A56F-0637857E809F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcApp/NfcReader.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
             endingLineNumber = "56"
-            landmarkName = "writeNfcButtonClicked(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "21FD4B1F-591D-49B3-BB9C-CBD5C35C08C6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
             landmarkName = "readerSession(_:didDetectNDEFs:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -167,15 +119,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FE184E85-4B5B-4E65-9832-260C56809D0E"
+            uuid = "2CE29F7E-4075-42C7-A16E-C8C1509EED52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcApp/NfcWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "readerSession(_:didDetectNDEFs:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26CDB1B4-FDAA-4EC5-B476-51883A0B0D68"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "writeNfcButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65225E3D-D5B6-4D07-918C-B5E0996F2569"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "readNfcButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -183,47 +167,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "87A9C392-9489-43A6-A9A5-DC139F20EC3B"
+            uuid = "A85CA9B1-1B55-4D2F-8683-AD064B75CDAB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
+            filePath = "NfcApp/NfcWriter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "readNfcButtonClicked(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E4F0FF39-2770-4FF3-9347-2EB9BB51A2EC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "createPayload()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "595BF075-4923-422D-A749-8F4A9ACFD56C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "readerSession(_:didDetect:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -231,16 +183,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "52167CD9-CD64-421F-A95A-38BB72565E16"
+            uuid = "82808A5D-7E65-4F47-8A35-F733BC679E0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcApp/NFC/NfcReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "readerSession(_:didDetectNDEFs:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C10C6E91-3E45-468D-BE88-BB79EC410AC8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NfcApp/ViewController.swift"
+            filePath = "NfcApp/UI/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "createPayload()"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "onTagRead(tag:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF627443-91D7-4B5E-8B93-1D7CB300F9E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcApp/NFC/NfcReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "readerSession(_:didDetectNDEFs:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

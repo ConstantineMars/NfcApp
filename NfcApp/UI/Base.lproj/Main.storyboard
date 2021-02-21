@@ -23,17 +23,6 @@
                                     <action selector="readNfcButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4kJ-CY-t2p"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuS-pu-t6h">
-                                <rect key="frame" x="193.5" y="404.5" width="27.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New tag" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuW-aV-DlZ">
-                                <rect key="frame" x="166" y="471" width="82" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNT-mH-46u">
                                 <rect key="frame" x="172" y="513" width="70" height="30"/>
                                 <state key="normal" title="Write NFC"/>
@@ -41,18 +30,35 @@
                                     <action selector="writeNfcButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7TP-lQ-x3l"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ConstantineMars.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuW-aV-DlZ">
+                                <rect key="frame" x="20" y="471" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuS-pu-t6h">
+                                <rect key="frame" x="20" y="403.5" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="lw1-Ws-TfK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hNT-mH-46u" firstAttribute="top" secondItem="kuW-aV-DlZ" secondAttribute="bottom" constant="8" symbolic="YES" id="6nv-kd-1jT"/>
+                            <constraint firstItem="kuW-aV-DlZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8rj-LN-DWK"/>
                             <constraint firstItem="hpI-Ts-5x7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BBS-lm-FMg"/>
-                            <constraint firstItem="HuS-pu-t6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CxC-Yc-sme"/>
+                            <constraint firstItem="HuS-pu-t6h" firstAttribute="trailing" secondItem="kuW-aV-DlZ" secondAttribute="trailing" id="FdN-aw-2ln"/>
                             <constraint firstItem="kuW-aV-DlZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fk0-BN-5oh"/>
-                            <constraint firstItem="hpI-Ts-5x7" firstAttribute="top" secondItem="HuS-pu-t6h" secondAttribute="bottom" constant="8" symbolic="YES" id="JBd-Ay-BZr"/>
                             <constraint firstItem="hNT-mH-46u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MKw-s9-IgW"/>
+                            <constraint firstItem="HuS-pu-t6h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="359.5" id="YM1-on-by1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kuW-aV-DlZ" secondAttribute="trailing" constant="20" id="dRT-hl-HN5"/>
                             <constraint firstItem="hpI-Ts-5x7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="doS-Ji-w3W"/>
                             <constraint firstItem="kuW-aV-DlZ" firstAttribute="top" secondItem="hpI-Ts-5x7" secondAttribute="bottom" constant="8" id="k1h-rZ-veC"/>
+                            <constraint firstItem="HuS-pu-t6h" firstAttribute="leading" secondItem="kuW-aV-DlZ" secondAttribute="leading" id="zxr-pS-AGM"/>
                         </constraints>
                     </view>
                     <connections>
@@ -62,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-196" y="119"/>
+            <point key="canvasLocation" x="-197.10144927536234" y="118.52678571428571"/>
         </scene>
     </scenes>
     <resources>

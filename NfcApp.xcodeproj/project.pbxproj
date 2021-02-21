@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A5FF25625E2492B00E73D93 /* NfcWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FF25525E2492B00E73D93 /* NfcWriter.swift */; };
+		2A5FF25B25E24C9F00E73D93 /* NfcReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FF25A25E24C9F00E73D93 /* NfcReader.swift */; };
 		2A97A33B25DDB5D300AD3B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97A33A25DDB5D300AD3B81 /* AppDelegate.swift */; };
 		2A97A33D25DDB5D300AD3B81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97A33C25DDB5D300AD3B81 /* SceneDelegate.swift */; };
 		2A97A33F25DDB5D300AD3B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97A33E25DDB5D300AD3B81 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2A5FF25525E2492B00E73D93 /* NfcWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcWriter.swift; sourceTree = "<group>"; };
+		2A5FF25A25E24C9F00E73D93 /* NfcReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcReader.swift; sourceTree = "<group>"; };
 		2A97A33725DDB5D300AD3B81 /* NfcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NfcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A97A33A25DDB5D300AD3B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A97A33C25DDB5D300AD3B81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5FF25F25E25A0D00E73D93 /* NFC */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FF25525E2492B00E73D93 /* NfcWriter.swift */,
+				2A5FF25A25E24C9F00E73D93 /* NfcReader.swift */,
+			);
+			path = NFC;
+			sourceTree = "<group>";
+		};
+		2A5FF26025E25A1800E73D93 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2A97A33E25DDB5D300AD3B81 /* ViewController.swift */,
+				2A97A34025DDB5D300AD3B81 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2A5FF26125E25A2700E73D93 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2A97A33A25DDB5D300AD3B81 /* AppDelegate.swift */,
+				2A97A33C25DDB5D300AD3B81 /* SceneDelegate.swift */,
+				2A97A34625DDB5D300AD3B81 /* Assets.xcassets */,
+				2A97A34825DDB5D300AD3B81 /* LaunchScreen.storyboard */,
+				2A97A34325DDB5D300AD3B81 /* NfcApp.xcdatamodeld */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		2A97A32E25DDB5D200AD3B81 = {
 			isa = PBXGroup;
 			children = (
@@ -104,16 +136,11 @@
 		2A97A33925DDB5D300AD3B81 /* NfcApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A5FF25F25E25A0D00E73D93 /* NFC */,
+				2A5FF26025E25A1800E73D93 /* UI */,
+				2A5FF26125E25A2700E73D93 /* Other */,
 				2A97A37025DDB6C000AD3B81 /* NfcApp.entitlements */,
-				2A97A33A25DDB5D300AD3B81 /* AppDelegate.swift */,
-				2A97A33C25DDB5D300AD3B81 /* SceneDelegate.swift */,
-				2A97A33E25DDB5D300AD3B81 /* ViewController.swift */,
-				2A97A34025DDB5D300AD3B81 /* Main.storyboard */,
-				2A97A34625DDB5D300AD3B81 /* Assets.xcassets */,
-				2A97A34825DDB5D300AD3B81 /* LaunchScreen.storyboard */,
 				2A97A34B25DDB5D300AD3B81 /* Info.plist */,
-				2A97A34325DDB5D300AD3B81 /* NfcApp.xcdatamodeld */,
-				2A5FF25525E2492B00E73D93 /* NfcWriter.swift */,
 			);
 			path = NfcApp;
 			sourceTree = "<group>";
@@ -266,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5FF25B25E24C9F00E73D93 /* NfcReader.swift in Sources */,
 				2A97A33F25DDB5D300AD3B81 /* ViewController.swift in Sources */,
 				2A97A33B25DDB5D300AD3B81 /* AppDelegate.swift in Sources */,
 				2A97A33D25DDB5D300AD3B81 /* SceneDelegate.swift in Sources */,

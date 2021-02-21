@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5FF25625E2492B00E73D93 /* NfcWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FF25525E2492B00E73D93 /* NfcWriter.swift */; };
 		2A97A33B25DDB5D300AD3B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97A33A25DDB5D300AD3B81 /* AppDelegate.swift */; };
 		2A97A33D25DDB5D300AD3B81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97A33C25DDB5D300AD3B81 /* SceneDelegate.swift */; };
 		2A97A33F25DDB5D300AD3B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97A33E25DDB5D300AD3B81 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A5FF25525E2492B00E73D93 /* NfcWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcWriter.swift; sourceTree = "<group>"; };
 		2A97A33725DDB5D300AD3B81 /* NfcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NfcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A97A33A25DDB5D300AD3B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A97A33C25DDB5D300AD3B81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		2A97A35B25DDB5D400AD3B81 /* NfcAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NfcAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A97A35F25DDB5D400AD3B81 /* NfcAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcAppUITests.swift; sourceTree = "<group>"; };
 		2A97A36125DDB5D400AD3B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A97A37025DDB6C000AD3B81 /* NfcApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NfcApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		2A97A33925DDB5D300AD3B81 /* NfcApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A97A37025DDB6C000AD3B81 /* NfcApp.entitlements */,
 				2A97A33A25DDB5D300AD3B81 /* AppDelegate.swift */,
 				2A97A33C25DDB5D300AD3B81 /* SceneDelegate.swift */,
 				2A97A33E25DDB5D300AD3B81 /* ViewController.swift */,
@@ -109,6 +113,7 @@
 				2A97A34825DDB5D300AD3B81 /* LaunchScreen.storyboard */,
 				2A97A34B25DDB5D300AD3B81 /* Info.plist */,
 				2A97A34325DDB5D300AD3B81 /* NfcApp.xcdatamodeld */,
+				2A5FF25525E2492B00E73D93 /* NfcWriter.swift */,
 			);
 			path = NfcApp;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				2A97A33F25DDB5D300AD3B81 /* ViewController.swift in Sources */,
 				2A97A33B25DDB5D300AD3B81 /* AppDelegate.swift in Sources */,
 				2A97A33D25DDB5D300AD3B81 /* SceneDelegate.swift in Sources */,
+				2A5FF25625E2492B00E73D93 /* NfcWriter.swift in Sources */,
 				2A97A34525DDB5D300AD3B81 /* NfcApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NfcApp/NfcApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N664U8S44;
 				INFOPLIST_FILE = NfcApp/Info.plist;
@@ -459,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NfcApp/NfcApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N664U8S44;
 				INFOPLIST_FILE = NfcApp/Info.plist;

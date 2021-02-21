@@ -1,24 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NfcApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpI-Ts-5x7">
+                                <rect key="frame" x="172.5" y="433" width="69" height="30"/>
+                                <state key="normal" title="Read NFC"/>
+                                <connections>
+                                    <action selector="readNfcButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4kJ-CY-t2p"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuS-pu-t6h">
+                                <rect key="frame" x="193.5" y="404.5" width="27.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New tag" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuW-aV-DlZ">
+                                <rect key="frame" x="166" y="471" width="82" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNT-mH-46u">
+                                <rect key="frame" x="172" y="513" width="70" height="30"/>
+                                <state key="normal" title="Write NFC"/>
+                                <connections>
+                                    <action selector="writeNfcButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7TP-lQ-x3l"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hNT-mH-46u" firstAttribute="top" secondItem="kuW-aV-DlZ" secondAttribute="bottom" constant="8" symbolic="YES" id="6nv-kd-1jT"/>
+                            <constraint firstItem="hpI-Ts-5x7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BBS-lm-FMg"/>
+                            <constraint firstItem="HuS-pu-t6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CxC-Yc-sme"/>
+                            <constraint firstItem="kuW-aV-DlZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fk0-BN-5oh"/>
+                            <constraint firstItem="hpI-Ts-5x7" firstAttribute="top" secondItem="HuS-pu-t6h" secondAttribute="bottom" constant="8" symbolic="YES" id="JBd-Ay-BZr"/>
+                            <constraint firstItem="hNT-mH-46u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MKw-s9-IgW"/>
+                            <constraint firstItem="hpI-Ts-5x7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="doS-Ji-w3W"/>
+                            <constraint firstItem="kuW-aV-DlZ" firstAttribute="top" secondItem="hpI-Ts-5x7" secondAttribute="bottom" constant="8" id="k1h-rZ-veC"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="HuS-pu-t6h" id="dMQ-aC-2dm"/>
+                        <outlet property="textField" destination="kuW-aV-DlZ" id="lSC-Jp-Bxs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-196" y="119"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
